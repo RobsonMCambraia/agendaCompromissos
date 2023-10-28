@@ -26,11 +26,13 @@ hr {
     border-radius: 10px;
     word-wrap: break-word;
 }
-}
+
 label, input, textarea {
     margin-bottom: 10px;
 }
-
+input {
+    padding: 5px;
+}
 #titulo{
     max-width: 480px;
     font-family:Arial, Helvetica, sans-serif;
