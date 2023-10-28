@@ -26,7 +26,10 @@ hr {
     border-radius: 10px;
     word-wrap: break-word;
 }
-
+.compromissos ul > li {
+    width: 90%;
+    margin: auto;
+}
 label, input, textarea {
     margin-bottom: 10px;
 }
@@ -52,4 +55,20 @@ input {
     50%{
         opacity: 0;
     }
+}
+input[type="date"]::before,
+input[type="time"]::before {
+    content: attr(placeholder);
+    color: rgba(0, 0, 0, 0.63);
+    position: relative;
+    display: block; 
+    width: 5%; 
+    text-align: left; 
+    pointer-events: none; 
+}
+
+#enviar {
+    width: 80%;
+    height: 30px;
+    margin: auto;
 }
