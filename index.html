@@ -9,7 +9,8 @@
 </head>
 <body>
     <div class="container">
-        <h1>Agendar compromisso</h1>
+        <h1 id="titulo">Agendar compromisso</h1>
+        <hr>
         <div class="form-container">
             <label>Identificação:</label>
             <input type="text" id="name">
@@ -22,8 +23,8 @@
 
             <button onclick="addAppointment()">Adicionar</button>
         </div>
+        <h2>Compromissos:</h2>
         <div class="compromissos">
-            <h2>Compromisso:</h2>
             <ul id="appointment-list"></ul>
         </div>
     </div>
